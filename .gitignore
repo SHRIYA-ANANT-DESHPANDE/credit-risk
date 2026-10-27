@@ -1,0 +1,9 @@
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*.log
+.env
+.streamlit/secrets.toml
+*.docx
+*.pdf
