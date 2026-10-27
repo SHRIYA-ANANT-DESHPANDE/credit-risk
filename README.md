@@ -2,6 +2,8 @@
 
 A small Streamlit website that runs a published pretrained loan-default classifier. It does not train a model and does not require a GPU. The first prediction downloads `model.pkl` from Hugging Face and caches it locally.
 
+https://creditlens-credit-risk.streamlit.app/
+
 ## Run locally
 
 ```powershell
@@ -15,7 +17,7 @@ Open the local URL printed by Streamlit. An internet connection is needed for th
 
 ## Model
 
-- Repository: [Yashwanth-R19/loan-default-classifier](https://huggingface.co/Yashwanth-R19/loan-default-classifier)
+- (https://huggingface.co/Yashwanth-R19/loan-default-classifier)
 - Task: estimate loan default probability from tabular applicant and loan features
 - Artifact: scikit-learn pipeline containing preprocessing and an XGBoost classifier
 - Compatibility: scikit-learn is pinned to 1.5.2, the version used to serialize this pipeline
